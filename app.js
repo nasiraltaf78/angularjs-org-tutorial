@@ -33,7 +33,6 @@ angular.module('core.phone').factory('Phone', ['$resource', function ($resource)
 }]);
 
 
-
 // phoneList module  ...'core.phone' injected as a dependancy for this module
 angular.module('phoneList', ['core.phone']);
 
